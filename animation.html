@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            color: pink;
+            background-color: darkorchid;
+            margin: auto;
+            height: 200px;
+            width: 200px; 
+            animation-name: box;
+            animation-duration: 3s;
+            /* animation-delay: 2s; */
+            animation-timing-function: ease;
+            animation-direction: alternate-reverse ygj jyjk;
+            animation-iteration-count: 4;
+        }
+        @keyframes box{
+            0%{
+                background-color: pink;
+                border-radius: 0%;
+            }
+            10%{
+                background-color: aqua;
+                border-radius: 10%;
+            }
+            20%{
+                background-color: red;
+                border-radius: 20%;
+            }
+            30%{
+                background-color: darkgreen;
+                border-radius: 30%;
+            }
+            40%{
+                background-color: pink;
+                border-radius: 40%;
+            }
+            50%{
+                background-color: aqua;
+                border-radius: 50%;
+            }
+            60%{
+                background-color: pink;
+                border-radius: 0%;
+            }
+            70%{
+                background-color: aqua;
+                border-radius: 50%;
+            }
+            80%{
+                background-color: pink;
+                border-radius: 0%;
+            }
+            90%{
+                background-color: aqua;
+                border-radius: 50%;
+            }
+            100%{
+                background-color: pink;
+                border-radius: 0%;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
