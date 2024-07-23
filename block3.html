@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            position: relative;
+        }
+    
+        img {
+            width: 100%;
+            height: auto;
+            position: relative;
+        }
+        .text{
+            position: absolute;
+            top: 0;
+        }
+        p.first {
+            top: 10%;
+            left: 5%;
+            font-size: 48px;
+            font-weight: 500;
+            color: palevioletred;
+            text-transform: uppercase;
+        }
+
+
+        p.secound {
+        
+            top: 14%;
+            left: 5%;
+            color: #333333;
+            font-weight: 900;
+            font-size: 45px;
+            font-size: 70px;
+            font-weight: 900;
+            color: #333333;
+            text-transform: uppercase;
+        }
+    
+        p.secound::after {
+            content: ' OFF!';
+            color: #333333;
+            font-weight: 400;
+            font-size: 45px;
+        }
+
+        p.secound::before {
+            content: ' UPTO ';
+            color: #333333;
+            font-weight: 400;
+            font-size: 45px;
+        }
+
+        p.third {
+         
+            top: 28%;
+            left: 5%;
+            font-size: 25px;
+        }
+
+        a {
+             position: absolute; 
+            background-color: palevioletred;
+            color: white;
+            left: 10%;
+            top: 38%;
+            border: 2px solid black;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+        a:hover{
+            background-color: pink;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="box">
+        <img src="../dhruvika/assets/sample-3.jpg" alt="">
+          <div class="text">
+          <p class="first">summer collection</p>
+          <p class="secound">40%</p>
+          <p class="third">Exclusive Available Online</p>
+          <a href="#">Shop Today</a>
+          </div>
+
+    </div>
+</body>
+
+</html>
